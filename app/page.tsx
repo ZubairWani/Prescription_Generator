@@ -3,12 +3,21 @@
 import React, { useState, useEffect } from 'react';
 import { FileText, Stethoscope, Shield, Clock, Users, ChevronRight, Menu, X, Star, Check, ArrowRight, Zap, Globe, Heart } from 'lucide-react';
 
-// Mock Link component for demonstration - replace with actual Next.js Link
-const Link = ({ href, children, className = "" }) => (
+import { ReactNode } from 'react';
+
+interface LinkProps {
+  href: string;
+  children: ReactNode;
+  className?: string; // <- fix here
+}
+
+
+const Link = ({ href, children, className = "" }: LinkProps) => (
   <a href={href} className={className}>
     {children}
   </a>
 );
+
 
 export default function PrescriptionLanding() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
