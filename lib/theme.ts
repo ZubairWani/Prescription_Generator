@@ -1,0 +1,48 @@
+export const telemedicineDarkTheme = {
+  colors: {
+    brand: '#3B82F6',
+    brandAccent: '#2563EB',
+    brandButtonText: 'white',
+    defaultButtonBackground: '#1F2937',
+    defaultButtonBackgroundHover: '#374151',
+    defaultButtonBorder: '#374151',
+    defaultButtonText: 'white',
+    dividerBackground: '#374151',
+    inputBackground: '#1F2937',
+    inputBorder: '#374151',
+    inputBorderHover: '#4B5563',
+    inputBorderFocus: '#3B82F6',
+    inputText: 'white',
+    inputLabelText: '#9CA3AF',
+    inputPlaceholder: '#6B7280',
+    messageText: '#E5E7EB',
+    messageTextDanger: '#EF4444',
+    anchorTextColor: '#3B82F6',
+    anchorTextHoverColor: '#2563EB',
+  },
+  space: {
+    buttonPadding: '10px 15px',
+    inputPadding: '10px 15px',
+  },
+  fontSizes: {
+    baseBodySize: '14px',
+    baseInputSize: '14px',
+    baseLabelSize: '14px',
+    baseButtonSize: '14px',
+  },
+  fonts: {
+    bodyFontFamily: `ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif`,
+    buttonFontFamily: `ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif`,
+    inputFontFamily: `ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif`,
+    labelFontFamily: `ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif`,
+  },
+  borderWidths: {
+    buttonBorderWidth: '1px',
+    inputBorderWidth: '1px',
+  },
+  radii: {
+    borderRadiusButton: '6px',
+    buttonBorderRadius: '6px',
+    inputBorderRadius: '6px',
+  },
+} 
