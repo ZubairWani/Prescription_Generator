@@ -1414,12 +1414,10 @@ import {
 
 import {
   User,
-  Users,
   Stethoscope,
   Calendar,
   Activity,
   ClipboardList,
-  FlaskConical,
   PillIcon,
   Clock,
   CheckCircle2,
@@ -1427,7 +1425,6 @@ import {
   Save,
   ChevronRight,
   History,
-  Thermometer,
   FileCheck,
   Weight,
   Ruler,
@@ -1437,7 +1434,6 @@ import {
   Download,
   Share2,
   HeartPulse,
-  Building,
   Edit3,
   PlusCircle,
   Menu,

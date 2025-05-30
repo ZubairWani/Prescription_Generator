@@ -47,6 +47,7 @@ export interface IMedication {
   frequency: string;
   duration: string;
   notes?: string;
+  instructions?: string; 
 }
 
 // Define ICommonDisease first (or ensure it's defined before IFamilyHistory uses it, though order doesn't strictly matter for interfaces in the same file)
