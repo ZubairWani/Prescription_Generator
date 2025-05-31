@@ -32,9 +32,11 @@ import {
     Check,
     ChevronsUpDown,
     Filter,
-    Heart // Example for cardiovascular, ensure all icons used in diseaseOptions are imported
 } from 'lucide-react';
+
+
 import { diseaseOptions } from '@/data/diseases'; // CRITICAL: Ensure this file has correct data
+// console.log("disease options", diseaseOptions)
 
 interface FamilyHistoryFormProps {
     familyHistory: IFamilyHistory;
