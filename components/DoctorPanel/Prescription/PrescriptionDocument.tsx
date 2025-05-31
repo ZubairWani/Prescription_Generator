@@ -308,7 +308,7 @@ interface PrescriptionDocumentProps {
 const PrescriptionDocument: React.FC<PrescriptionDocumentProps> = ({
   data,
   template = "classic",
-  doctorName = "Dr Zubair wani",
+  doctorName = "Dr Aamir Hamid",
   hospitalName = "Tabeeb Medical Solutions",
   hospitalSlogan = "Your Slogan",
   doctorQualification = "Qualification",
