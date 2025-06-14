@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🩺 Prescription Generator
+Prescription Generator is a modern web application designed to simplify and streamline the process of generating medical prescriptions. It allows healthcare professionals to efficiently create, customize, preview, and export professional-looking prescriptions in PDF format.
 
-## Getting Started
+🚀 Live Demo
+Visit the live project here: prescription-generator.onrender.com
 
-First, run the development server:
+✨ Features
+🖋️ Prescription Form: Intuitive UI to input patient, doctor, and medicine details.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📄 PDF Generation: Instantly generate and download a neatly formatted prescription as a PDF.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🧩 Component-Based UI: Built using Radix UI components for accessibility and consistency.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🕒 Date Picker Integration: Select consultation and prescription dates with ease.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🎨 Theming with Tailwind CSS: Fully responsive and styled with utility-first classes.
 
-## Learn More
+⚡ Fast Performance: Powered by Next.js and optimized rendering.
 
-To learn more about Next.js, take a look at the following resources:
+🛠️ Tech Stack
+Frontend Framework: Next.js
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+UI & Styling: Tailwind CSS, Radix UI, Lucide Icons
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+PDF Rendering: @react-pdf/renderer
 
-## Deploy on Vercel
+Date Handling: date-fns
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Form Elements & Accessibility: Radix UI components
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📁 Project Structure
+components/ - Reusable UI components
+
+pages/ - Next.js routing and views
+
+styles/ - Tailwind and global CSS
+
+utils/ - Helper functions and constants
+
+pdf/ - Prescription PDF layout and rendering logic
+
+🔍 Notable Dependencies
+@react-pdf/renderer - For dynamic PDF generation
+
+react-day-picker - Modern date selection
+
+cmdk, clsx, tailwind-merge - For efficient class and UI handling
+
+geist - A design system for elegant typography and layout
+
+🧪 Development Highlights
+Built with a focus on minimalism, user experience, and performance.
+
+Uses TypeScript for type safety and better developer tooling.
+
+Linting and best practices ensured with ESLint and Next.js conventions.
+
+📌 Use Cases
+Clinics generating printed prescriptions
+
+Telemedicine platforms looking to automate document generation
+
+Medical students and professionals creating mock prescriptions for learning
+
+🙌 Acknowledgements
+Inspired by the need for fast, clean, and reusable prescription generation.
+
+Thanks to the open-source libraries and contributors that power this app.
